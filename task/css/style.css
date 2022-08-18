@@ -1,0 +1,170 @@
+body {
+    background-color: #0b0b0b;
+}
+
+#navBar {
+    z-index: 99;
+}
+
+#header .content .icons i {
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+#header .content .icons i:hover {
+    color: gold;
+}
+
+@media (max-width: 800px) {
+    #header .content #col-left {
+        height: auto;
+        margin-bottom: 40px;
+    }
+}
+
+
+/*  sec2   */
+
+.sec2 .heading {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.sec2 .heading h2 {
+    color: gold;
+}
+
+.sec2 .heading::after {
+    content: '';
+    position: absolute;
+    width: 24%;
+    height: 5px;
+    background-color: gray;
+    left: -25%;
+    top: 50%;
+}
+
+.sec2 .heading::before {
+    content: '';
+    position: absolute;
+    width: 24%;
+    height: 5px;
+    background-color: gray;
+    right: -20%;
+    top: 50%;
+}
+
+.sec2 .box {
+    position: relative;
+    margin: auto;
+}
+
+.sec2 .box img {
+    width: 100%;
+}
+
+.sec2 .box .content {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #0b0b0b;
+    color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.sec2 .arrow i {
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.sec2 .arrow i:hover {
+    color: gold;
+}
+
+@media (max-width: 800px) {
+    .sec2 .heading::before {
+        width: 54%;
+    }
+    .sec2 .box .content {
+        font-size: 14px;
+        bottom: 0;
+    }
+    .sec2 .box .content p {
+        display: none;
+    }
+}
+
+
+/* sec3  */
+
+.sec3 i {
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.sec3 i:hover {
+    color: gold;
+}
+
+
+/* sec4 */
+
+.sec4 .heading {
+    position: relative;
+}
+
+.sec4 .heading::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    width: 30%;
+    height: 5px;
+    background-color: gray;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+/* sec 5 */
+
+.sec5>div {
+    box-shadow: 0px 0px 20px 15px black;
+}
+
+.sec5 h3 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.sec5 .ok {
+    color: gold;
+}
